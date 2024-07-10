@@ -1,6 +1,6 @@
 <?php
-include 'Address.php';
-include 'Person.php';
+include 'model/Address.php';
+include 'model/Person.php';
 
 // Database connection
 $mysqli = new mysqli("localhost", "root", "", "persondb");
